@@ -62,7 +62,7 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 60rem;
+  height: 50rem;
   width: 100%;
 }
 
@@ -70,6 +70,7 @@ html {
   height: 40rem;
   -webkit-transition: all 2.0s;
   transition: all 2.0s;
+  border-radius: 20rem;
 }
 
 .trippy-img:hover {
@@ -77,5 +78,50 @@ html {
           transform: scale(2);
   -webkit-filter: hue-rotate(270deg);
           filter: hue-rotate(270deg);
+}
+
+.tech-div {
+  height: 60rem;
+  background-color: black;
+}
+
+.school {
+  height: 40rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.exit-div {
+  height: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.exit-circle {
+  height: 10rem;
+  width: 37rem;
+  background-image: radial-gradient(white, red 70%);
+  border-radius: 10rem;
+  border: 10px white double;
+  -webkit-transition: all 1.0s;
+  transition: all 1.0s;
+}
+
+header {
+  font-size: 6rem;
+  height: 100%;
+  margin: 1.5rem 1rem 1.5rem 1.9rem;
+}
+
+.exit-circle:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 /*# sourceMappingURL=style.css.map */
