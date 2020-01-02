@@ -78,15 +78,25 @@ html{
 
 
 
-.tech-div{
-    height: 60rem;
+.seagull-div{
+    height: 70rem;
+    margin: 0px 1rem;
+    margin: 0 auto;
+    transition: all 7.0s;
     background-color: black;
+    
 }
 
-.school{
+.seagull-img{
     height: 40rem;
     display: block;
-    margin: 0 auto;
+    transform: translate(128.7rem, 30rem);
+    transition: all 7.0s;
+    
+}
+
+.seagull-img:hover{
+    transform: translate(-128.7rem, -30rem);
 }
 
 
