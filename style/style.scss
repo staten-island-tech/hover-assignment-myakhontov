@@ -1,3 +1,6 @@
+//FIX LIVE SERVER IMAGE LOADING
+//FIX LIVE SERVER IMAGE LOADING
+//FIX LIVE SERVER IMAGE LOADING
 
 html{
     padding: 0;
@@ -53,9 +56,6 @@ html{
     opacity: 0.3;
 }
 
-
-
-
 .trippy-div{
     display: flex;
     justify-content: center;
@@ -75,15 +75,12 @@ html{
 
 }
 
-
-
-
 .seagull-div{
     height: 70rem;
     margin: 0px 1rem;
     margin: 0 auto;
     transition: all 7.0s;
-    background-color: black;
+    //background-color: black;
     
 }
 
@@ -95,17 +92,28 @@ html{
     
 }
 
-.seagull-img:hover{
-    transform: translate(-128.7rem, -30rem);
+.seagull-div:hover{
+    .seagull-img{
+        transform: translate(-128.7rem, -30rem);
+    }
 }
 
+.border-div{
+    height: 80rem;
+    //background: green;
+}
 
+.newyear-img{
+    display: block;
+    margin: 0 auto;
+    transform: translateY(12rem);
+    border: 2rem solid orange;
+    transition: all 2.0s;
+}
 
-
-
-
-
-
+.newyear-img:hover{
+    border: 5rem dashed red;
+}
 
 .exit-div{
     height: 40rem;
