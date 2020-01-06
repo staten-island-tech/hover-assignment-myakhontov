@@ -86,20 +86,29 @@ html {
   margin: 0 auto;
   -webkit-transition: all 7.0s;
   transition: all 7.0s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .seagull-img {
   height: 40rem;
   display: block;
-  -webkit-transform: translate(128.7rem, 30rem);
-          transform: translate(128.7rem, 30rem);
+  -webkit-transform: translate(128rem, 0);
+          transform: translate(128rem, 0);
   -webkit-transition: all 7.0s;
   transition: all 7.0s;
 }
 
 .seagull-div:hover .seagull-img {
-  -webkit-transform: translate(-128.7rem, -30rem);
-          transform: translate(-128.7rem, -30rem);
+  -webkit-transform: translate(-128rem, -50rem);
+          transform: translate(-128rem, -50rem);
 }
 
 .border-div {
@@ -153,4 +162,18 @@ header {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
+
+/*
+.idk{
+    height: 60rem;
+}
+
+.bruh{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 20px;
+    background-color: green;
+    
+}
+*/
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,3 @@
-//FIX LIVE SERVER IMAGE LOADING
-//FIX LIVE SERVER IMAGE LOADING
-//FIX LIVE SERVER IMAGE LOADING
 
 html{
     padding: 0;
@@ -80,6 +77,10 @@ html{
     margin: 0px 1rem;
     margin: 0 auto;
     transition: all 7.0s;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+
     //background-color: black;
     
 }
@@ -87,14 +88,14 @@ html{
 .seagull-img{
     height: 40rem;
     display: block;
-    transform: translate(128.7rem, 30rem);
+    transform: translate(128rem, 0);
     transition: all 7.0s;
     
 }
 
 .seagull-div:hover{
     .seagull-img{
-        transform: translate(-128.7rem, -30rem);
+        transform: translate(-128rem, -50rem);
     }
 }
 
@@ -141,4 +142,16 @@ header{
 .exit-circle:hover{
     transform: rotate(360deg);
 }
+/*
+.idk{
+    height: 60rem;
+}
 
+.bruh{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 20px;
+    background-color: green;
+    
+}
+*/
