@@ -142,16 +142,34 @@ header{
 .exit-circle:hover{
     transform: rotate(360deg);
 }
-/*
+
 .idk{
     height: 60rem;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
 }
 
 .bruh{
     height: 30rem;
     width: 30rem;
     border-radius: 20px;
-    background-color: green;
-    
+    animation-name: hello;
+    animation-duration: 5.0s;
+    border: 5px solid black;
+    background-color: red;
+    display: block;
+    position: absolute;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
 }
-*/
+
+@keyframes hello{
+    0% {background-color: red; left: 0px;}
+    25% {background-color: yellow; left: 40rem; margin-top: 20rem;}
+    50% {background-color: green; left: 80rem; margin-top: 0rem;} 
+    75% {background-color: blue; left: 120rem; margin-top: 20rem;}
+    100%{background-color: red; left: 160rem; margin-top: 0rem;}
+}
