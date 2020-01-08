@@ -163,25 +163,25 @@ header {
           transform: rotate(360deg);
 }
 
-.idk {
+.first-animation {
   height: 60rem;
   /*display: flex;
     justify-content: center;
     align-items: center;*/
 }
 
-.bruh {
+.square {
   height: 30rem;
   width: 30rem;
   border-radius: 20px;
-  -webkit-animation-name: hello;
-          animation-name: hello;
-  -webkit-animation-duration: 5.0s;
-          animation-duration: 5.0s;
   border: 5px solid black;
   background-color: red;
   display: block;
   position: absolute;
+  -webkit-animation-name: hello;
+          animation-name: hello;
+  -webkit-animation-duration: 5.0s;
+          animation-duration: 5.0s;
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
   -webkit-animation-iteration-count: infinite;
@@ -213,7 +213,7 @@ header {
     margin-top: 20rem;
   }
   100% {
-    background-color: red;
+    background-color: violet;
     left: 160rem;
     margin-top: 0rem;
   }
@@ -240,7 +240,7 @@ header {
     margin-top: 20rem;
   }
   100% {
-    background-color: red;
+    background-color: violet;
     left: 160rem;
     margin-top: 0rem;
   }

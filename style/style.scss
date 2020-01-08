@@ -143,23 +143,23 @@ header{
     transform: rotate(360deg);
 }
 
-.idk{
+.first-animation{
     height: 60rem;
     /*display: flex;
     justify-content: center;
     align-items: center;*/
 }
 
-.bruh{
+.square{
     height: 30rem;
     width: 30rem;
     border-radius: 20px;
-    animation-name: hello;
-    animation-duration: 5.0s;
     border: 5px solid black;
     background-color: red;
     display: block;
     position: absolute;
+    animation-name: hello;
+    animation-duration: 5.0s;
     animation-delay: 0.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -171,5 +171,5 @@ header{
     25% {background-color: yellow; left: 40rem; margin-top: 20rem;}
     50% {background-color: green; left: 80rem; margin-top: 0rem;} 
     75% {background-color: blue; left: 120rem; margin-top: 20rem;}
-    100%{background-color: red; left: 160rem; margin-top: 0rem;}
+    100%{background-color: violet; left: 160rem; margin-top: 0rem;}
 }
