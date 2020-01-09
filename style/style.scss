@@ -158,7 +158,7 @@ header{
     background-color: red;
     display: block;
     position: absolute;
-    animation-name: hello;
+    animation-name: square;
     animation-duration: 5.0s;
     animation-delay: 0.5s;
     animation-iteration-count: infinite;
@@ -166,10 +166,37 @@ header{
     animation-timing-function: linear;
 }
 
-@keyframes hello{
+@keyframes square{
     0% {background-color: red; left: 0px;}
     25% {background-color: yellow; left: 40rem; margin-top: 20rem;}
     50% {background-color: green; left: 80rem; margin-top: 0rem;} 
     75% {background-color: blue; left: 120rem; margin-top: 20rem;}
     100%{background-color: violet; left: 160rem; margin-top: 0rem;}
 }
+
+.second-assignment{
+    height: 60rem;
+}
+
+.second-animation img{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 30rem;
+    animation-name: circle;
+    animation-duration: 5.0s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes circle{
+    from{
+
+    }
+    to{
+        transform: translate(160rem, 0rem) rotate(360deg);
+        filter: hue-rotate(270deg);
+    }
+}
+

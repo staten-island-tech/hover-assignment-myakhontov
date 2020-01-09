@@ -178,8 +178,8 @@ header {
   background-color: red;
   display: block;
   position: absolute;
-  -webkit-animation-name: hello;
-          animation-name: hello;
+  -webkit-animation-name: square;
+          animation-name: square;
   -webkit-animation-duration: 5.0s;
           animation-duration: 5.0s;
   -webkit-animation-delay: 0.5s;
@@ -192,7 +192,7 @@ header {
           animation-timing-function: linear;
 }
 
-@-webkit-keyframes hello {
+@-webkit-keyframes square {
   0% {
     background-color: red;
     left: 0px;
@@ -219,7 +219,7 @@ header {
   }
 }
 
-@keyframes hello {
+@keyframes square {
   0% {
     background-color: red;
     left: 0px;
@@ -243,6 +243,50 @@ header {
     background-color: violet;
     left: 160rem;
     margin-top: 0rem;
+  }
+}
+
+.second-assignment {
+  height: 60rem;
+}
+
+.second-animation img {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 30rem;
+  -webkit-animation-name: circle;
+          animation-name: circle;
+  -webkit-animation-duration: 5.0s;
+          animation-duration: 5.0s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes circle {
+  from {
+  }
+  to {
+    -webkit-transform: translate(160rem, 0rem) rotate(360deg);
+            transform: translate(160rem, 0rem) rotate(360deg);
+    -webkit-filter: hue-rotate(270deg);
+            filter: hue-rotate(270deg);
+  }
+}
+
+@keyframes circle {
+  from {
+  }
+  to {
+    -webkit-transform: translate(160rem, 0rem) rotate(360deg);
+            transform: translate(160rem, 0rem) rotate(360deg);
+    -webkit-filter: hue-rotate(270deg);
+            filter: hue-rotate(270deg);
   }
 }
 /*# sourceMappingURL=style.css.map */
