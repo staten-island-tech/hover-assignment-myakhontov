@@ -148,6 +148,7 @@ header{
     /*display: flex;
     justify-content: center;
     align-items: center;*/
+    background-color: green;
 }
 
 .square{
@@ -178,7 +179,7 @@ header{
     height: 60rem;
 }
 
-.second-animation img{
+.circle img{
     height: 30rem;
     width: 30rem;
     border-radius: 30rem;
@@ -187,7 +188,7 @@ header{
     animation-delay: 0.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    animation-timing-function: linear;
+    animation-timing-function: linear;  
 }
 
 @keyframes circle{

@@ -168,6 +168,7 @@ header {
   /*display: flex;
     justify-content: center;
     align-items: center;*/
+  background-color: green;
 }
 
 .square {
@@ -250,7 +251,7 @@ header {
   height: 60rem;
 }
 
-.second-animation img {
+.circle img {
   height: 30rem;
   width: 30rem;
   border-radius: 30rem;
